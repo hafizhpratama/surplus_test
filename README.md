@@ -131,7 +131,7 @@ The API has the following endpoints:
   "name": "T-Shirt",
   "description": "A comfortable t-shirt for everyday wear",
   "enable": true,
-  "category": "Shirts"
+  "category": "Shirts" //Category Name
 }
 ```
 
@@ -141,7 +141,7 @@ The API has the following endpoints:
   "name": "T-Shirt",
   "description": "A comfortable t-shirt for everyday wear",
   "enable": true,
-  "image": "T-Shirt image"
+  "image": "T-Shirt image" //Image Name
 }
 ```
 
@@ -151,8 +151,8 @@ The API has the following endpoints:
   "name": "T-Shirt",
   "description": "A comfortable t-shirt for everyday wear",
   "enable": true,
-  "category": "Shirts"
-  "image": "T-Shirt image"
+  "category": "Shirts" //Category Name
+  "image": "T-Shirt image" //Image Name
 }
 ```
 
