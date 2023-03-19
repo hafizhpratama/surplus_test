@@ -100,6 +100,12 @@ The API has the following endpoints:
 
 ### API Payload
 #### Category
+
+| Parameter | Type     | Description                |
+| :-------- | :------- | :------------------------- |
+| `name` | `string` | Name of category |
+| `enable` | `boolean` | Status of category |
+
 ```bash
 {
   "name": "Shirts",
@@ -108,6 +114,13 @@ The API has the following endpoints:
 ```
 
 #### Product
+
+| Parameter | Type     | Description                |
+| :-------- | :------- | :------------------------- |
+| `name` | `string` | Name of product |
+| `description` | `string` | description of product |
+| `enable` | `boolean` | Status of product |
+
 ```bash
 {
   "name": "T-Shirt",
@@ -117,6 +130,13 @@ The API has the following endpoints:
 ```
 
 #### Image
+
+| Parameter | Type     | Description                |
+| :-------- | :------- | :------------------------- |
+| `name` | `string` | Name of image |
+| `description` | `string` | description of image |
+| `enable` | `boolean` | Status of image |
+
 ```bash
 {
   "name": "Jeans Image",
